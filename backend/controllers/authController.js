@@ -1,9 +1,10 @@
 const User = require("../models/User")
 const jwt = require("jsonwebtoken");
+const config = require("../config/config");
 
 // Generate JWT token
 const generateToken = (id) => {
-    return jwt.sign({ id }, process.env.JWT_SECRET, { expiresIn: "1h"});
+    return jwt.sign({ id }, config.JWT_SECRET, { expiresIn: "1h"});
 }
 
 // Register user

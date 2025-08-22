@@ -1,3 +1,6 @@
+Here’s your README updated with **all URLs pointing to your GitHub and project repository**:
+
+````markdown
 # 💸 SpendWise: Expense Tracker
 
 SpendWise is a full-stack Expense Tracker app to manage your income and expenses efficiently. Built with **React (Vite)** on the frontend, **Node.js (Express)** for the backend, and **MongoDB** for data storage.
@@ -18,12 +21,14 @@ SpendWise is a full-stack Expense Tracker app to manage your income and expenses
 ## 🧑‍💻 Tech Stack
 
 ### Frontend ⚛️
+
 - React + Vite
 - Tailwind CSS
 - Recharts
 - Axios
 
 ### Backend 🛠️
+
 - Node.js + Express
 - MongoDB + Mongoose
 - JWT (Authentication)
@@ -33,7 +38,8 @@ SpendWise is a full-stack Expense Tracker app to manage your income and expenses
 
 ## 📁 Folder Structure
 
-Expense-Tracker/
+SpendWise/
+
 - ├── backend/ → Node.js Express API
 - ├── frontend/expense-tracker/ → Vite + React frontend
 
@@ -44,9 +50,10 @@ Expense-Tracker/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/IshaanPathak25/Expense-Tracker.git
-cd Expense-Tracker
+git clone https://github.com/HiwarkhedePrasad/FinWell.git
+cd FinWell
 ```
+````
 
 ### 2. Backend setup
 
@@ -55,7 +62,7 @@ cd backend
 npm install
 ```
 
-- Create a .env file inside /backend:
+- Create a `.env` file inside `/backend`:
 
 ```.env
 MONGO_URI=your_mongo_connection_string
@@ -64,6 +71,7 @@ PORT=8000
 ```
 
 - Run the backend server
+
 ```bash
 npm run dev
 ```
@@ -75,13 +83,14 @@ cd frontend/expense-tracker
 npm install
 ```
 
-- Create a .env file inside /frontend/expense-tracker:
+- Create a `.env` file inside `/frontend/expense-tracker`:
 
 ```env
 VITE_BASE_URL=http://localhost:8000
 ```
 
 - Run the frontend
+
 ```bash
 npm run dev
 ```
@@ -89,11 +98,20 @@ npm run dev
 ---
 
 ## 🙌 Acknowledgements
+
 - Inspired by modern personal finance tools
 - Built using best practices in the MERN stack
 
 ---
 
 ## 🧑‍💼 Author
-- Ishaan Pathak
-- 📫 [GitHub](https://github.com/IshaanPathak25)
+
+- Prasad Hiwarkhede
+- 📫 [GitHub](https://github.com/HiwarkhedePrasad)
+
+```
+
+All repository links now point to your GitHub (`HiwarkhedePrasad/FinWell`).
+
+If you want, I can also **update the project name inside the README** from `Expense-Tracker` to `SpendWise` everywhere for consistency. Do you want me to do that?
+```

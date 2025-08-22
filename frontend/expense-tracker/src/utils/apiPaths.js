@@ -1,5 +1,5 @@
-export const BASE_URL = "https://389ad59ceb52.ngrok-free.app";
-
+//export const BASE_URL = import.meta.env.VITE_BASE_URL || "http://localhost:8000";
+export const BASE_URL = "http://localhost:8000";
 // utils/apiPaths.js
 export const API_PATHS = {
   AUTH: {
@@ -27,5 +27,13 @@ export const API_PATHS = {
   },
   GMAIL: {
     GMAIL_PARSER: "/api/gmail/fetch-expenses",
+    IMPORT_STATUS: "/api/gmail/import-status",
+    PROCESSED_EMAILS: "/api/gmail/processed-emails",
+    CLEAR_PROCESSED_EMAILS: "/api/gmail/clear-processed-emails",
+    // Gmail Authentication
+    AUTH_URL: "/api/gmail/auth/url",
+    AUTH_STATUS: "/api/gmail/auth/status",
+    AUTH_DISCONNECT: "/api/gmail/auth/disconnect",
+    AUTH_TEST: "/api/gmail/auth/test",
   },
 };
